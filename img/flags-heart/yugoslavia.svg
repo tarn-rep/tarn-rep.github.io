@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="238" height="250" id="svg2" version="1.1" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="EuroRepública Socialista de Croacia.svg">
+  <metadata id="metadata22">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs20"/>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1366" inkscape:window-height="705" id="namedview18" showgrid="false" inkscape:zoom="0.70710678" inkscape:cx="112.65195" inkscape:cy="138.32482" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="svg2"/>
+  <path style="fill:#de0000;fill-opacity:1" inkscape:connector-curvature="0" d="m 35,161 145,-14 -71,92 z" id="path4"/>
+  <path style="fill:#ffffff" inkscape:connector-curvature="0" d="M 220.215,73.911 188,148 32,162 15,92 Z" id="path6"/>
+  <path style="fill:#003893;fill-opacity:1" inkscape:connector-curvature="0" d="m 29,54 43,-21 36,25 41,-40 58,-5.000003 19,62 -213,19 z" id="path8"/>
+  <path inkscape:connector-curvature="0" d="m 106.00556,62.663479 -13.850617,43.423181 -44.190075,3.86614 36.275448,23.20843 -13.850629,43.4232 36.275433,-28.89626 36.27543,22.54888 -13.85062,-40.99965 36.27544,-29.555818 -44.19008,3.866128 z" style="opacity:1;fill:#dd0000;stroke:#fcd115;stroke-width:3.95732045" id="path8-9"/>
+  <path inkscape:connector-curvature="0" d="m 25.005,111.471 c 0.6,-53.792 28.594,-70.628 43.839,-70.628 21.29,0 30.083,16.253 31.52,23.449 1.436,7.19 9.494,12.941 12.083,1.147 2.591,-11.794 27.637,-47.758 58.42,-47.758 28.192,0 37.956,29.073 37.111,53.801 C 205.671,138.8 118.95,192.527 107.535,226.452 97.371,205.905 24.288,176.204 25.005,111.471 Z M 180.938,0.99999995 C 155.621,1 125.68,19.698 107.557,50.771 102.667,39.549 85.244,27.32 64.533,27.32 47.844,27.32 1,48.178 1,115.498 c 0,86.88 87.901,104.725 105.671,131.729 1.221,1.857 5.154,3.26 6.655,-1.177 C 127.505,204.205 237.451,156.925 237.451,71.771 237.45,24.015 206.254,1 180.938,0.99999995 Z" id="path16"/>
+</svg>

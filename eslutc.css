@@ -1,0 +1,285 @@
+/* global */
+
+body {
+    background-image: linear-gradient(160deg, midnightblue, midnightblue, goldenrod);
+    background-attachment: fixed;
+}
+
+a:link {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+.text-body {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-body-loud {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 0.4vw;
+}
+
+.text-points {
+    text-align: center;
+    word-spacing: 6vw;
+}
+
+.text-footer {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+
+em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+.icon {
+    height: 2vw;
+}
+
+/* intro section */
+
+.img-logo {
+    max-width: 1200px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+.logo-subtitle {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vw;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    letter-spacing: 0.2vw;
+}
+
+.img-winner {
+    width: 30%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3vw;
+    border-style: solid;
+    border-color: gold;
+    border-width: 1vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+/* contestant blocks */
+
+.contestants-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.contestant {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    max-width: 90%;
+}
+
+.img-contestant {
+    position: absolute;
+    z-index: 10;
+    width: 30%;
+    display: block;
+    border-radius: 3vw;
+    border-style: solid;
+    border-color: gold;
+    border-width: 1vw;
+    left: 0;
+    top: 6vw;
+}
+
+.img-flag-contest {
+    position: absolute;
+    z-index: 20;
+    max-width: 15%;
+    left: 27%;
+    top: 2%;
+}
+
+.infobox-contestant {
+    z-index: 5;
+    background-color: rgba(218, 165, 32, .45);
+    border-radius: 3vw;
+    margin-left: 25%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.text-country {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    text-align: left;
+    color: white;
+    max-width: 90%;
+    margin-left: 44%;
+    padding-top: 1.5vw;
+}
+
+.text-contestant {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    font-weight: bolder;
+    line-height: 0;
+    text-align: left;
+    color: white;
+    max-width: 90%;
+    margin-left: 44%;
+    margin-top: -0.0vw;
+}
+
+.text-info {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    text-align: left;
+    color: white;
+    line-height: 1.5;
+    max-width: 90%;
+    margin-left: 13.5%;
+    margin-right: 5%;
+}
+
+/* sex acts section */
+
+.sex-acts {
+    z-index: 5;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sex-acts-heading {    
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.sex-acts-heading-title {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    letter-spacing: 0.2vw;
+}
+
+.sex-acts-heading-subtitle {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-top: -5vw;
+}
+
+.sex-acts-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.sex-acts-itembox {
+    flex-basis: 25%;
+    position: relative;
+    display: block;
+}
+
+.sex-acts-image {
+    position: relative;
+    z-index: 10;
+    border-radius: 3vw;
+    border-style: solid;
+    border-color: gold;
+    border-width: 1vw;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sex-acts-label {
+    width: 70%;
+    z-index: 5;
+    background-color: rgba(218, 165, 32, .45);
+    border-radius: 3vw;
+    padding-top: 3vw;
+    margin-top: -3.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sex-acts-price {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+}
+
+.sex-acts-name {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
+    margin-top: -1vw;
+    padding-bottom: 1.2vw;
+}
