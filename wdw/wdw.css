@@ -1,0 +1,231 @@
+/* global */
+
+body {
+    background-image: linear-gradient(rgb(36, 36, 36), rgb(36, 36, 36), rgb(36, 36, 36), dimgrey);
+    background-color: rgb(36, 36, 36);
+    background-attachment: fixed;
+}
+
+.basic {
+    color: yellow;
+}
+
+.highlight {
+    color: white;
+}
+
+/* text formats */
+
+.text-block {
+    width: 90%;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-text {
+    font-size: 3vw;
+    font-family: Kanit, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 3.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(29, 219, 217);
+    font-size: 6vw;
+    font-family: 'Squada One', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-text {
+    color: yellow;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Kanit, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(29, 219, 217);
+    text-decoration: none;
+}
+
+/* header logos */
+
+.header-logos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    margin-bottom: 50vw;
+}
+
+.header-ring {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+
+    position: absolute;
+    z-index: 100;
+}
+
+.header-wet_dream {
+    position: absolute;
+    z-index: 101;
+    width: 82%;
+    left: 50%;
+    margin-left: -41%;
+    margin-top: 16vw;
+}
+
+.header-wrestling {
+    position: absolute;
+    z-index: 101;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: 26vw;
+}
+
+.header-subtitle {
+    position: absolute;
+    z-index: 102;
+    width: 70%;
+    left: 50%;
+    margin-left: -35%;
+    margin-top: 25vw;
+}
+
+/* wrestler grid table */
+
+.wrestler-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 15% 15% 15% 15% 15% 15%;
+    grid-gap: 1%;
+    margin-top: -3vw;
+}
+
+.grid-top {
+    text-align: center;
+    color: rgb(29, 219, 217);
+    margin-bottom: -3vw;
+}
+
+.grid-left {
+    text-align: right;
+    color: rgb(29, 219, 217);
+}
+
+.grid-name {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Squada One', Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 3vw;
+}
+
+.grid-image {
+    width: 90%;
+    border-radius: 1vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-background {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 1vw;
+    height: 100%;
+}
+
+.grid-logo {
+    width: 30%;
+    margin-right: 5%;
+    border-radius: 1vw;
+    float: right;
+}
+
+.grid-skill {
+    text-align: left;
+}
+
+/* modals */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    overflow: auto;
+    background-color: rgba(29, 219, 217, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.modal-window {
+    position: relative;
+    background-color: white;
+    width: 80%;
+    margin: 10% auto;
+    padding: 2vw;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    width: 2vw;
+    height: 2vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+.open {
+    display: block;
+}
+
+/* two-column layout */
+
+.row {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    width: 45%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
